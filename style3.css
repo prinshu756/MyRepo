@@ -11,22 +11,37 @@ a{
 }
 
 #des1{
-    color:rgb(238, 234, 234);
+    color:rgb(120, 38, 86);
     font-size: 15px;
-    font-variant: ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-stretch: ultra-expanded;
+    text-emphasis:initial;
 }
 #des2{
-    color:rgb(4, 112, 25);
+    color:#58114a;
     font-size: 15px;
-    font-family: cursive;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-stretch: ultra-expanded;
+   
 }
 #des3{
     color:rgb(17, 11, 11);
     font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-stretch: ultra-expanded;
+   
 }
 #des4{
     color:rgb(74, 14, 41);
     font-size: 15px;
+    font-family:sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-stretch: ultra-expanded;
+    
 }
 header{
     width: 1140px;
@@ -63,10 +78,10 @@ header a{
 }
 .carousel .list .item .content{
     position: absolute;
-    top: 20%;
+    top: 10%;
     width: 1140px;
     max-width: 80%;
-    left: 50%;
+    left: 41%;
     transform: translateX(-50%);
     padding-right: 30%;
     box-sizing: border-box;
@@ -170,7 +185,7 @@ header a{
 
 /* animation */
 .carousel .list .item:nth-child(1){
-    z-index: 1;
+    z-index: 2;
 }
 
 /* animation text in first item */
@@ -262,7 +277,7 @@ header a{
 
 .carousel.next .time,
 .carousel.prev .time{
-    animation: runningTime 3s linear 1 forwards;
+    animation: runningTime 5s linear 1 forwards;
 }
 @keyframes runningTime{
     from{ width: 100%}
